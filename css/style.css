@@ -253,6 +253,76 @@ header .fa-bars{
     transform: rotate(45deg);
   }
 
+  .counter .box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+  }
+  
+  .counter .box-container .box{
+    margin:2rem 5rem;
+    text-align: center;
+  }
+  
+  .counter .box-container .box i{
+    color:var(--blue);
+    font-size: 5rem;
+  }
+  
+  .counter .box-container .box span{
+    color:var(--black);
+    font-size: 3rem;
+    display: block;
+    padding:1rem 0;
+  }
+  
+  .counter .box-container .box h3{
+    color:#666;
+  }
+  
+  .contact{
+    background:var(--black);
+  }
+  
+  .contact .heading{
+    color:#fff;
+  }
+  
+  .contact form{
+    text-align: center;
+  }
+  
+  .contact form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contact form .inputBox input, select{
+    height: 4rem;
+    width:49%;
+    padding:0 1rem;
+    margin:1rem 0;
+    font-size: 1.7rem;
+    color:var(--black);
+  }
+  
+  .contact form textarea{
+    height:20rem;
+    resize: none;
+    padding:1rem;
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  
+  .contact form input[type="submit"]{
+    width:20rem;
+  }
+  
+  .contact form input[type="submit"]:hover{
+    background:var(--black);
+  }
 
 
 
@@ -264,6 +334,13 @@ header .fa-bars{
 
 
 
+
+
+
+
+
+
+  
 
 header .fa-times{
     transform: rotate(180deg);
