@@ -340,7 +340,7 @@ header .fa-bars{
 
 
 
-  
+
 
 header .fa-times{
     transform: rotate(180deg);
@@ -388,4 +388,10 @@ header .fa-times{
         top:50%;
         opacity: 1;
     }
+    .contact form .inputBox input, select{
+        width: 100%;
+    }
+    .contact form input[type="submit"]{
+        width:100%;
+      }
 }
